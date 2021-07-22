@@ -1,8 +1,28 @@
 
+/* buttons */
+.btn{
+     border-radius: 30px;
+     margin: 0 10px;
+}
+.btn_blue{
+    background-color: #2d64e6;
+}
+.btn_red{
+    background-color: #cd3d0f;
+}
+.btn_white{
+    background-color: #fff;
+}
+.btn_light{
+    background-color: #d9dadc;
+}
+.btn_dark{
+    background-color: #363636;
+    color: white;
+}
 
 /* Navbar */
 .navbar{
-    background-color: pink;
     padding: 0px;
     height: 65px;
 }
