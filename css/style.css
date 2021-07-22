@@ -21,7 +21,14 @@
     color: white;
 }
 
-/* Navbar */
+/* Header */
+.header_top{
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    background-color: #000;
+    padding: 10px;
+}
 .navbar{
     padding: 0px;
     height: 65px;
