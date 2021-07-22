@@ -1,13 +1,37 @@
 
+#debug{
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+/* Common */
+img.img_cover{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+img.img_contain{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 /* Typo */
 body{
     font-family: Arial, sans-serif;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
+}
+h4{
+    font-size: 18px;
+    color: #2d64e6;
+    text-transform: uppercase;
 }
 p{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* buttons */
@@ -16,6 +40,7 @@ p{
 }
 .btn_blue{
     background-color: #2d64e6;
+    color: #fff;
 }
 .btn_red{
     background-color: #cd3d0f;
@@ -87,8 +112,25 @@ header{
     overflow: hidden;
     margin: 20px 0;
 }
-.hero_selector_item img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+
+/* New_PlayStation Section */
+.console_selector > div{
+    filter: opacity(0.5);
+}
+.console_selector > div._active{
+    filter: opacity(1);
+    position: relative;
+}
+.console_selector > div._active::after{
+    content: '';
+    height: 2px;
+    width: 70%;
+    background-color: #2d64e6;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.console_selector img{
+    height: 95px;
 }
