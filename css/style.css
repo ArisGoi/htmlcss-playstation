@@ -64,6 +64,7 @@ p{
 }
 .btn_white{
     background-color: #fff;
+    color: #161c3b;
 }
 .btn_light{
     background-color: #d9dadc;
@@ -174,8 +175,7 @@ main{
 
 /* PS Banner */
 .ps_banner .hero{
-    background-color: #bebcbb;
-    min-height: 10px;
+    min-height: 100px;
     overflow-x: hidden;
 }
 .ps_banner .rg_img{
@@ -185,6 +185,12 @@ main{
 .ps_banner .rg_img img{
     position: absolute;
     top: 0;
-    left: 0;
+    right: -10%;
     height: 100%;
+}
+
+/* Social Section */
+#social{
+    max-width: 700px;
+    margin: auto;
 }
