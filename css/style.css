@@ -43,7 +43,7 @@ p{
     color: #fff;
 }
 .btn_red{
-    background-color: #cd3d0f;
+    background-color: #DF591C;
     color: #fff;
 }
 .btn_white{
@@ -78,13 +78,12 @@ header{
 }
 
 /* MAIN */
-
-/* Hero */
-#top_hero{
-    margin-top: calc(35px + 65px); /* (header_top + Navbar) */
+main{
+    padding-top: calc(35px + 65px); /* (header_top + Navbar) */
 }
+/* Hero */
 .hero{
-    min-height: 500px;
+    min-height: 650px;
     width: 100%;
     position: relative;
     display: flex;
@@ -103,7 +102,7 @@ header{
 }
 .hero_content{
     color: white;
-    padding: 40px 30px;
+    padding: 40px 12px;
 }
 
 .hero_selector_item{
@@ -111,6 +110,10 @@ header{
     border-radius: 25px;
     overflow: hidden;
     margin: 20px 0;
+}
+.hero_selector_item._active{
+    box-shadow: 0px 0px 0px 2px #2d64e6;
+    border: 3px solid white;
 }
 
 /* New_PlayStation Section */
