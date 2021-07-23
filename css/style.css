@@ -172,17 +172,17 @@ main{
     height: 200px;
 }
 
-/* PS Plus banner */
-#PSplus_hero .hero{
+/* PS Banner */
+.ps_banner .hero{
     background-color: #bebcbb;
     min-height: 10px;
     overflow-x: hidden;
 }
-#PSplus_hero .rg_img{
+.ps_banner .rg_img{
     position: relative;
     height: 100%;
 }
-#PSplus_hero .rg_img img{
+.ps_banner .rg_img img{
     position: absolute;
     top: 0;
     left: 0;
