@@ -18,6 +18,10 @@ img.img_contain, .img_contain img{
     object-fit: contain;
 }
 
+._flex{
+    display: flex;
+}
+
 .rr::after{
     content: '®';
     font-size: 14px;
@@ -63,6 +67,7 @@ p{
 }
 .btn_light{
     background-color: #d9dadc;
+    color: #2d64e6;
 }
 .btn_dark{
     background-color: #363636;
@@ -165,4 +170,21 @@ main{
 /* Esplore PS4 */
 #explore_PS4 img{
     height: 200px;
+}
+
+/* PS Plus banner */
+#PSplus_hero .hero{
+    background-color: #bebcbb;
+    min-height: 10px;
+    overflow-x: hidden;
+}
+#PSplus_hero .rg_img{
+    position: relative;
+    height: 100%;
+}
+#PSplus_hero .rg_img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
