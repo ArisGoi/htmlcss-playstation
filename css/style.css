@@ -18,7 +18,18 @@ img.img_contain, .img_contain img{
     object-fit: contain;
 }
 
+.rr::after{
+    content: '®';
+    font-size: 14px;
+    vertical-align: text-top;
+    position: relative;
+    top: 5px;
+}
+
 /* Typo */
+h2, h3, p{
+    padding-bottom: 15px;
+}
 body{
     font-family: Arial, sans-serif;
 }
@@ -29,6 +40,7 @@ h4{
     font-size: 18px;
     color: #2d64e6;
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 p{
     font-size: 16px;
@@ -143,11 +155,14 @@ main{
     background-color: #1f1f1f;
     color: #fff;
 }
-#new_games_release h2, #new_games_release h3{
-    padding-bottom: 25px;
-}
 .new_release_img{
     width: 100%;
     border-radius: 30px;
     overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* Esplore PS4 */
+#explore_PS4 img{
+    height: 200px;
 }
