@@ -7,12 +7,12 @@
 }
 
 /* Common */
-img.img_cover{
+img.img_cover, .img_cover img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-img.img_contain{
+img.img_contain, .img_contain img{
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -136,4 +136,18 @@ main{
 }
 .console_selector img{
     height: 95px;
+}
+
+/* New_Games_Release Section */
+#new_games_release{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+#new_games_release h2, #new_games_release h3{
+    padding-bottom: 25px;
+}
+.new_release_img{
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
 }
