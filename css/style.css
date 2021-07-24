@@ -186,6 +186,11 @@ main{
 .hero_selector_item:hover{
     transform: translateY(-12px);
 }
+@media screen and (max-width: 991px){
+    .hero_selector_item:hover{
+        transform: translateY(0);
+    }
+}
 
 /* New_PlayStation Section */
 .console_selector > div{
