@@ -75,6 +75,45 @@ p{
     color: #fff;
 }
 
+header .btn:hover{
+    position: relative;
+    margin-top: -4px;
+    margin-left: 0px !important;
+    top: 2px;
+    left: 2px;
+}
+.btn:hover{
+    position: relative;
+    margin-top: -4px;
+    top: 2px;
+    left: -2px;
+}
+.btn_blue:hover{
+    color: #fff;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #2d64e6;
+}
+.btn_red:hover{
+    color: #fff;
+    border: 3px solid black;
+    box-shadow: 0 0 0 3px #DF591C;
+}
+.btn_white:hover{
+    color: #161c3b;
+    border: 3px solid #161c3b;
+    box-shadow: 0 0 0 3px #fff;
+}
+.btn_light:hover{
+    color: #2d64e6;
+    border: 3px solid #bebcbb;
+    box-shadow: 0 0 0 3px #d9dadc;
+}
+.btn_dark:hover{
+    color: #fff;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #363636;
+}
+
 /* Header */
 header{
     position: fixed;
@@ -138,17 +177,22 @@ main{
     border-radius: 25px;
     overflow: hidden;
     margin: 20px 0;
+    transition: 0.7s;
 }
 .hero_selector_item._active{
     box-shadow: 0px 0px 0px 2px #2d64e6;
     border: 3px solid white;
 }
+.hero_selector_item:hover{
+    transform: translateY(-12px);
+}
 
 /* New_PlayStation Section */
 .console_selector > div{
     filter: opacity(0.5);
+    transition: 0.7s;
 }
-.console_selector > div._active{
+.console_selector > div._active, .console_selector > div:hover{
     filter: opacity(1);
     position: relative;
 }
